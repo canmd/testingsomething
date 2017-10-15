@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    background-color: #8fddb3;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/******/
+
+.home {
+    background-color: #8fddb3;
+}
+
+h1 {
+    font-size: 6em;
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.input-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+
+.input-container input {
+    width: 75px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    opacity: 0.4;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input-hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;`
+    color: #ffffff;
+}
+
+span {
+    color: #ffffff;
+}
+
+.input-hour input {
+    width: 45px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0.4;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: 1.2px solid #233b28;
+    opacity: 0.7;
+}
+
+
+.alive {
+    width: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.mili {
+    width: auto;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.button {
+    width: auto;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #ffffff;
+    opacity: 0.7;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#restart {
+    top: 62%
+}
+
+.button:hover {
+    opacity: 0.3;
+}
+
+.button:active {
+    color: #385c48
+}
+
+.up {
+    margin-top: -60px;
+}
+
+.down {
+    margin-top: 60px;
+}
+
+.error {
+    width: auto;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #ff0000;
+    opacity: 0.4;
+}
+
+#age {
+    position: absolute;
+    width: auto;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*** 480px ***/ 
+
+@media screen and (max-width: 480px) {
+    
+    .input-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    }
+
+    .input-container input {
+    width: 75px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    opacity: 0.4;
+    text-align: center;
+    border-radius: 5px;
+    }
+}
+
+/***To be added***/
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
